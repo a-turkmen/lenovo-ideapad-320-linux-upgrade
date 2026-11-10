@@ -32,7 +32,7 @@ Projet personnel de valorisation matérielle et logicielle d'un ordinateur porta
 
 ### 1. Choix du système d'exploitation
 - **Distribution :** Debian 12
-- **Environnement de bureau :** [Ex: XFCE / GNOME / MATE]
+- **Environnement de bureau :** XFCE
 - **Avantages :** Consommation RAM au repos inférieure à 800 Mo, empreinte CPU minimale.
 
 ### 2. Gestion énergétique avancée avec TLP
@@ -40,3 +40,20 @@ Installation du démon d'optimisation d'énergie :
 ```bash
 sudo apt update && sudo apt install tlp tlp-rdw
 sudo systemctl enable --now tlp
+```
+---
+
+## 📊 Métriques énergétiques réelles (`upower`)
+
+Mesure relevée sur batterie (luminosité ~40 %, Wi-Fi connecté, session de travail bureautique sous Debian 12) :
+
+```text
+native-path:          BAT0
+vendor:               Green Cell
+state:                discharging
+energy-rate:          6.42 W
+time to empty:        5.8 hours
+percentage:           94%
+```
+
+![Capture upower en conditions réelles](docs/upower-metrics.png)
