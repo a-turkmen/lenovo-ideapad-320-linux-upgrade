@@ -31,7 +31,7 @@ Projet personnel de valorisation matérielle et logicielle d'un ordinateur porta
 ## 🐧 Configuration Système & Optimisation (`TLP`)
 
 ### 1. Choix du système d'exploitation
-- **Distribution :** [Nom de votre distribution, ex: Debian 12 / Linux Mint / Ubuntu LTS]
+- **Distribution :** Debian 12
 - **Environnement de bureau :** [Ex: XFCE / GNOME / MATE]
 - **Avantages :** Consommation RAM au repos inférieure à 800 Mo, empreinte CPU minimale.
 
