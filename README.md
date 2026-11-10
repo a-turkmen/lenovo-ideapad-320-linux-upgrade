@@ -1,7 +1,7 @@
 
 # Rénovation matérielle et optimisation sous Linux pour un Lenovo Ideapad 320 pour en faire un pc portable de cours
 
-# 💻 Reconditionnement & Optimisation Linux — Lenovo IdeaPad 320
+# 💻 Reconditionnement & Optimisation Linux — Lenovo IdeaPad 320 de 2017 (bientôt 10ans!!)
 
 Projet personnel de valorisation matérielle et logicielle d'un ordinateur portable **Lenovo IdeaPad 320**, reconditionné en machine nomade pour la prise de notes et le travail universitaire en BUT Réseaux & Télécoms.
 
@@ -21,10 +21,10 @@ Projet personnel de valorisation matérielle et logicielle d'un ordinateur porta
 
 | Composant | Configuration d'origine | Configuration après mise à niveau | Bénéfice constaté |
 | :--- | :--- | :--- | :--- |
-| **Stockage** | HDD 5400 RPM (SATA) | SSD 2.5" SATA | Démarrage en < 15s, accès disques instantanés |
+| **Stockage** | Disque dur classique | SSD 2.5" SATA (4 à 5x plus rapide) | Démarrage en < 15s, accès disques instantanés |
 | **Mémoire Vive (RAM)** | 4 Go DDR4 soudés | 8 Go (4 Go soudés + barrette SO-DIMM 4 Go) | Confort de multitâche, fin des saturations de Swap |
 | **Batterie** | Batterie d'origine dégradée | Nouvelle batterie (cellules haute densité) | Capacité accrue pour un encombrement identique |
-| **Refroidissement** | Pâte thermique asséchée | Nettoyage ventilateur + repaste thermique | Baisse des températures de 8-12°C en charge |
+| **Refroidissement** | Résidus de pâte thermique seulement | Nettoyage ventilateur + repaste thermique | Baisse des températures de 8-12°C en charge |
 
 ---
 
@@ -45,15 +45,15 @@ sudo systemctl enable --now tlp
 
 ## 📊 Métriques énergétiques réelles (`upower`)
 
-Mesure relevée sur batterie (luminosité ~40 %, Wi-Fi connecté, session de travail bureautique sous Debian 12) :
+Mesure relevée sur batterie (luminosité ~60 %, Wi-Fi connecté (2,4GHz), Bluetooth connecté (clavier externe sans-fils) session de travail bureautique classique sous Debian 13 XFCE : Navigateur avec 4 pages d'ouvertes, BitWarden, 2 terminaux) :
 
 ```text
 native-path:          BAT0
-vendor:               Green Cell
+vendor:               SMP
 state:                discharging
-energy-rate:          6.42 W
-time to empty:        5.8 hours
-percentage:           94%
+energy-rate:          8,021 W
+time to empty:        5.9 hours
+percentage:           96%
 ```
 
 ![Capture upower en conditions réelles](docs/upower-metrics.png)
