@@ -15,16 +15,16 @@ Projet personnel de valorisation matérielle et logicielle d'un ordinateur porta
 
 ---
 ## Attentes de ce projet
-  Ce projet s'est étalé sur plusieurs années, mes attentes envers ce pc ont changés au travers les années, tout d'abord je voulais plus de RAM (ce qui fluidifie l'usage bureautique en lancant des logiciels plus rapidement), puis j'ai voulu plus de stockage et plus rapide (j'ai changé mon disque dur en un SSD) et aujourd'hui il me faut plus d'autonomie pour avoir un pc qui tient une matinée en amphi, donc j'ai changé ma batterie vieillissante et optimiser l'autonomie via des outils Linux.
+  Ce projet s'est étalé sur plusieurs années, mes attentes envers ce pc ont évolué au fil des années, tout d'abord je voulais plus de RAM (ce qui fluidifie l'usage bureautique notamment en lancant des logiciels plus rapidement et un démarrage de la machine plus rapide), puis j'ai voulu plus de stockage et des transferts rapide (j'ai changé mon disque dur en un SSD) et aujourd'hui il me faut plus d'autonomie pour avoir un pc qui tient une matinée en amphi, donc j'ai changé ma batterie vieillissante et optimisé la consommation via des outils Linux.
   
-## 🛠️ Modifications Matérielles (Hardware)
+## 🛠️ Les améliorations matérielles (Ce qui a été changé dans le PC)
 
-| Composant | Configuration d'origine | Configuration après mise à niveau | Bénéfice constaté |
+| Composant | Avant (Origine) | Après (Modernisation) | Ce que ça change au quotidien |
 | :--- | :--- | :--- | :--- |
-| **Stockage** | Disque dur classique | SSD 2.5" SATA (4 à 5x plus rapide) | Démarrage en < 15s, accès disques instantanés |
-| **Mémoire Vive (RAM)** | 4 Go DDR4 soudés | 8 Go (4 Go soudés + barrette SO-DIMM 4 Go) | Confort de multitâche, fin des saturations de Swap |
-| **Batterie** | Batterie d'origine dégradée | Nouvelle batterie (cellules haute densité) | Capacité accrue pour un encombrement identique |
-| **Refroidissement** | Résidus de pâte thermique seulement | Nettoyage ventilateur + repaste thermique | Baisse des températures de 8-12°C en charge |
+| **Stockage** | Disque dur mécanique classique (lent) | **Disque SSD** (4 à 5 fois plus rapide, sans pièces mobiles) | L'ordinateur démarre en moins de 15 secondes et les logiciels s'ouvrent instantanément. |
+| **Mémoire Vive (RAM)** | 4 Go (mémoire intégrée d'origine) | **8 Go** (ajout d'une barrette mémoire de 4 Go) | Plus de blocages quand j'ouvre de nombreux onglets internet et logiciels en même temps. |
+| **Batterie** | Batterie d'origine usée | **Batterie neuve haute capacité** | Grâce aux technologies récentes plus compactes, elle stocke plus d'énergie dans exactement le même espace. |
+| **Refroidissement** | Poussière accumulée et pâte thermique sèche | **Nettoyage complet** et application d'une pâte thermique neuve | Le processeur chauffe beaucoup moins (-8 à -12 °C) et le ventilateur reste silencieux en cours. |
 
 ---
 ## Batterie
