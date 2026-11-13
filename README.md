@@ -15,7 +15,7 @@ Projet personnel de valorisation matérielle et logicielle d'un ordinateur porta
 
 ---
 ## Attentes de ce projet
-  Ce projet s'est étalé sur plusieurs années, mes attentes envers ce pc ont évolué au fil des années, tout d'abord je voulais plus de RAM (ce qui fluidifie l'usage bureautique notamment en lancant des logiciels plus rapidement), puis j'ai voulu plus de stockage, des transferts et démarrage plus rapide (j'ai changé mon disque dur en un SSD) et aujourd'hui il me faut plus d'autonomie pour avoir un pc qui tient une matinée en amphi, donc j'ai changé ma batterie vieillissante et optimisé la consommation via des outils Linux.
+  Ce projet s'est étalé sur plusieurs années, mes attentes envers ce pc ont évolué au fil des années, tout d'abord je voulais plus de RAM (ce qui fluidifie l'usage bureautique notamment en lancant des logiciels plus rapidement), puis j'ai voulu plus de stockage, des transferts et démarrage plus rapide (j'ai changé mon disque dur en un SSD) et aujourd'hui il me faut plus d'autonomie pour avoir un PC qui tienne une matinée entière en amphi, donc j'ai changé ma batterie vieillissante et optimisé la consommation via des outils Linux.
   
 ## 🛠️ Les améliorations matérielles (Ce qui a été changé dans le PC)
 
