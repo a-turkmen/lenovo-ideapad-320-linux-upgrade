@@ -60,4 +60,5 @@ time to empty:        5.9 hours
 percentage:           96%
 ```
 
-![Capture upower en conditions réelles](docs/upower-metrics.png)
+![Capture upower réelles](/screenshots/upower_metrics)
+
