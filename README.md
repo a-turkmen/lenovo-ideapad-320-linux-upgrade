@@ -1,4 +1,3 @@
-
 # Rénovation matérielle et optimisation sous Linux pour un Lenovo Ideapad 320 pour en faire un pc portable de cours
 
 # 💻 Reconditionnement & Optimisation Linux — Lenovo IdeaPad 320 de 2017 (bientôt 10ans!!)
@@ -31,6 +30,7 @@ Projet personnel de valorisation matérielle et logicielle d'un ordinateur porta
 
 Grâce aux progrès des batteries récentes, j'ai pu intégrer une batterie qui stocke plus d'énergie tout en gardant exactement la même taille.
 
+
 ## 🐧 Configuration Système & Optimisation (`TLP`)
 
 ### 1. Choix du système d'exploitation
@@ -43,22 +43,6 @@ Installation du démon d'optimisation d'énergie :
 ```bash
 sudo apt update && sudo apt install tlp tlp-rdw
 sudo systemctl enable --now tlp
-```
----
-
-## 📊 Métriques énergétiques réelles (`upower`)
-
-La consommation tombe autour de 8 W, ce qui permet de tenir une matinée entière de cours sans chargeur. 
-Mesure relevée sur batterie (luminosité ~60 %, Wi-Fi connecté (2,4GHz), Bluetooth connecté (clavier externe sans-fils) session de travail bureautique classique sous Debian 13 XFCE : Navigateur avec 4 pages d'ouvertes, BitWarden, 2 terminaux) :
-
-```text
-native-path:          BAT0
-vendor:               SMP
-state:                discharging
-energy-rate:          8,021 W
-time to empty:        5.9 hours
-percentage:           96%
-```
 
 ![Capture upower réelles](/screenshots/upower_metrics)
 
