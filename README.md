@@ -42,7 +42,8 @@ Grâce aux progrès des batteries récentes, j'ai pu intégrer une batterie qui 
 Installation du démon d'optimisation d'énergie :
 ```bash
 sudo apt update && sudo apt install tlp tlp-rdw
-sudo systemctl enable --now tlp
+sudo systemctl enable --now tlp```
+
 
 ![Capture upower réelles](/screenshots/upower_metrics)
 
